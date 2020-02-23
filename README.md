@@ -1,4 +1,12 @@
 # nodejs-typescript-express
+### para ejecutar la aplicacion
+$ git clone https://github.com/josepereza/nodejs-typescript-express.git
+$ cd nodejs-typescript-express/
+$ npm install
+$ node build/app.js
+
+### Cuando agregemos o modifiquemos algo  en algun archivo .ts debemos ejecutar:
+$ npm run tsc
 
 ## Como configurar un proyecto Express con TypeScript
 
