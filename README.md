@@ -35,11 +35,11 @@ transpilados.
 
 ## Instalando Express.js
 
-npm install express -s
+$ npm install express -s
 
 Los paquetes de Express y TypeScript son independientes. Consecuentemente, TypeScript no reconoce los tipos de las clases de Express. Existe un paquete npm concreto para que TypeScript reconozca los tipos de Express.
 
-npm install @types/express -s
+$ npm install @types/express -s
 
 Hola Mundo
 
@@ -60,13 +60,13 @@ app.get('/', function (req, res) {
 ```
 Compilando nuestra primera aplicación:
 
-npm run tsc
+$ npm run tsc
 
 Como podemos ver, este comando ha creado automáticamente la carpeta build y el fichero .js.
 
 ### Ejecutando Express
 
-node build/app.js
+$ node build/app.js
 
 Así, tenemos nuestro servidor corriendo en el puerto 3000
 
@@ -78,7 +78,7 @@ Este paquete se recomienda sólo para desarrollo. Para realizar el despliegue fi
 
 ts-node ya está incluido como dependencia en otro paquete, ts-node-dev. Después de instalar, ts-node-dev puede ejecutar comandos que reinician el servidor cuando los ficheros del proyecto se modifican.
 
-npm install ts-node-dev -s
+$ npm install ts-node-dev -s
 
 Dentro de nuestro package.json añadiremos dos scripts más.
 ```
@@ -90,11 +90,11 @@ Dentro de nuestro package.json añadiremos dos scripts más.
 ```
 Para iniciar el entorno de desarrollo:
 
-npm run dev
+$ npm run dev
 
 Para ejecutar el servidor en modo producción:
 
-npm run prod
+$ npm run prod
 
 El proyecto final puede encontrarse en este repositorio de GitHub:
 
